@@ -1,2 +1,5 @@
-# Display message to the screen
-print("\n \t I am programming")
+# Display a box
+print("##########")
+print("#        #")
+print("#        #")
+print("##########")
