@@ -1,9 +1,15 @@
-#Ask user to enter an activity
-print("Please enter the activity to be performed")
-activity = input()
-if activity == "calculate":
-    print("Performing calculation...")
-else:
-    print("Performing activity...")
+# Ask user for the direction
+print("Towards which direction should I go (up, down, left or right)?")
+direction = input()
 
-print("Activity completed!")
+# Determine which message to display
+if direction == "up":
+    print("I am moving in the upward direction!")
+elif direction == "down":
+    print("I am moving in the downward direction!")
+elif direction == "left":
+    print("I am moving in the leftward direction!")
+elif direction == "right":
+    print("I am moving in the rightward direction!")
+else:
+    print("Not sure which direction to move!")
