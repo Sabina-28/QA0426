@@ -1,6 +1,9 @@
-print("What type of book is this?")
-# Ask user to enter the type of book
-book = input()
+#Ask user to enter an activity
+print("Please enter the activity to be performed")
+activity = input()
+if activity == "calculate":
+    print("Performing calculation...")
+else:
+    print("Performing activity...")
 
-print(f"I like {book} books")
-print("Finished reading book")
+print("Activity completed!")
