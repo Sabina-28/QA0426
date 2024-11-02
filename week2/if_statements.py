@@ -1,15 +1,8 @@
-# Ask user for the direction
-print("Towards which direction should I go (up, down, left or right)?")
-direction = input()
-
-# Determine which message to display
-if direction == "up":
-    print("I am moving in the upward direction!")
-elif direction == "down":
-    print("I am moving in the downward direction!")
-elif direction == "left":
-    print("I am moving in the leftward direction!")
-elif direction == "right":
-    print("I am moving in the rightward direction!")
+# Ask user to enter a whole number
+print("Please enter a whole number")
+number = int(input())
+if number %2 == 0:
+    print(f"The number {number} is an even number")
 else:
-    print("Not sure which direction to move!")
+    print(f"The number {number} is an odd number")
+
