@@ -1,8 +1,11 @@
-# Ask user to enter a whole number
-print("Please enter a whole number")
-number = int(input())
-if number %2 == 0:
-    print(f"The number {number} is an even number")
+#Ask user to enter numbers
+print("Please enter the first number")
+number1 = int(input())
+print("Please enter the second number")
+number2 = int(input())
+if number1 > number2:
+    print("The first number is greater than the second number")
+elif number1 < number2:
+    print("The second number is greater than the first number")
 else:
-    print(f"The number {number} is an odd number")
-
+    print("The numbers are equal")
