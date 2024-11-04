@@ -1,13 +1,30 @@
 #Ask user to input
-print("What type of cover does the book have")
-cover_type = input()
-if cover_type == "soft":
-    print("Is the book perfect bound?")
+print("Where should I look")
+answer = input()
+if answer =="in the bedroom":
+    print("Where in the bedroom should I look?")
     answer = input()
-    if answer == "yes":
-        print("Soft cover, perfect bound books are very popular!")
+    if answer == "under the bed":
+        print("Found some shoes, but no phone")
     else :
-        print("Soft covers with coil or stitches are great for short books")
+        print("Found some mess but no phone")
+if answer == "in the bathroom":
+    print("Where in the bathroom should I look?")
+    answer = input()
+    if answer == "in the bathtub":
+     print("Found a rubber duck but no phone")
+    else :
+        print("Found bathroom stuff but no phone")
+if answer == "in the living room":
+    print("Where in the living room should I look?")
+    answer = input()
+    if answer =="on the table":
+        print("Yes! I found my phone")
+    else :
+        print("Found some stuff but no phone")
 
-else :
-    print("Books with hard cover can be more expensive")
+
+
+
+
+
