@@ -1,9 +1,10 @@
-#Ask the user direction
-print("What type of adventure should I have?")
-answer = input()
-if answer == "short":
-    print("Entering the dark forest")
-elif answer == "long":
-    print("Taking the safe route")
+#Ask the user to answer
+print("What did I hear?")
+answer1 = input()
+print("What did I see?")
+answer2 = input()
+if answer1 == "grrr" and answer2 == "two red eyes"  :
+    print("There is a scary creature. I should get out of here")
 else :
-    print("Not sure which route to take")
+    print("I am a little scared but I will continue")
+
