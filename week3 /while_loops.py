@@ -1,11 +1,13 @@
 #Ask user to answer
-print("How many apples should I remove?")
+print("How many obstacles should I avoid?")
 answer = int(input())
-#Declare a control variable
-apples_removed = 10
-#Remove apples
-print()
-while apples_removed < answer:
-    print("Removed apple")
-    apples_removed = apples_removed + 1
 
+#Declare a control variable
+obstacles_avoided = 0
+
+#Avoid obstacles
+print()
+while obstacles_avoided < answer:
+    print("Avoiding ...", end="")
+    obstacles_avoided = obstacles_avoided + 1
+print(f"Done! {obstacles_avoided} obstacles avoided.")
