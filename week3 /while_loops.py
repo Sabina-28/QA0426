@@ -1,13 +1,14 @@
-#Ask user to answer
-print("How many obstacles should I avoid?")
+# Ask user to answer
+print("How many bars should be charged?")
 answer = int(input())
 
-#Declare a control variable
-obstacles_avoided = 0
+# Declare a control variable
+bars_charged = 0
 
-#Avoid obstacles
+# Charging
 print()
-while obstacles_avoided < answer:
-    print("Avoiding ...", end="")
-    obstacles_avoided = obstacles_avoided + 1
-    print(f"Done! {obstacles_avoided} obstacles avoided.")
+
+while bars_charged < answer :
+    bars_charged = answer + 1
+    print(f"Charging {'█' * bars_charged}")
+print("The battery is fully charged")
