@@ -10,4 +10,4 @@ print()
 while obstacles_avoided < answer:
     print("Avoiding ...", end="")
     obstacles_avoided = obstacles_avoided + 1
-print(f"Done! {obstacles_avoided} obstacles avoided.")
+    print(f"Done! {obstacles_avoided} obstacles avoided.")
