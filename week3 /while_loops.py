@@ -1,10 +1,13 @@
-# Calculate the sum of the first 100 numbers
-print("Calculating the sum of the first 100 numbers...")
+# Ask user response
+print("How many numbers should I sum up?")
+answer = int(input())
+
 # Declare variables
-sum_of_numbers = 0
-counter = 1
-while counter <= 100:
-    sum_of_numbers += counter
+total_sum = 0
+counter = 0
+while counter < answer:
+    number = int(input(f"Enter number {counter+1}: "))
+    total_sum += number
     counter += 1
-# Display result
-print(f"...Done! The answer is {sum_of_numbers}")
+#Display result
+print(f"The answer is {total_sum}")
